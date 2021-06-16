@@ -1,7 +1,5 @@
 A template Node.js app that uses Redis to cache data.
 
-This app uses the GitHub api and it pulls the count of repos for a given GitHub user
-
 The route in the app.js file --> app.get('/repos/:username', getRepos);
  - means you can go to the URL: 'localhost:5000' and then add '/repos/toddbrannon', for example, to the URL string -> 'localhost:5000/repos/toddbrannon'
  - you should get a return of the count of repos for the username you input
